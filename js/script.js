@@ -1,42 +1,42 @@
 // Массив с путями к изображениям
 const images = [
-    'img/screenshots/bio/bio-colony-center.jpg',
-    'img/screenshots/bio/bio-greenhouses.jpg',
-    'img/screenshots/bio/bio-prison-cell.jpg',
-    'img/screenshots/bio/bio-rezector.jpg',
-    'img/screenshots/bio/bio-shooting-turret.jpg',
-    'img/screenshots/bio/bio-strange-cave.jpg',
-    'img/screenshots/bio/bio-tunnel-monster.jpg',
-    'img/screenshots/fabric/1.jpg',
-    'img/screenshots/fabric/2.jpg',
-    'img/screenshots/fabric/3.jpg',
-    'img/screenshots/fabric/4.jpg',
-    'img/screenshots/fabric/5.jpg',
-    'img/screenshots/fabric/6.jpg',
-    'img/screenshots/hacker/1.jpg',
-    'img/screenshots/hacker/2.png',
-    'img/screenshots/hacker/3.png',
-    'img/screenshots/hacker/4.png',
-    'img/screenshots/hacker/5.png',
-    'img/screenshots/hacker/6.jpg',
-    'img/screenshots/miners/1.jpg',
-    'img/screenshots/miners/2.jpg',
-    'img/screenshots/miners/3.jpg',
-    'img/screenshots/miners/4.jpg',
-    'img/screenshots/miners/5.jpg',
-    'img/screenshots/miners/6.jpg',
-    'img/screenshots/prisoners/1.jpg',
-    'img/screenshots/prisoners/2.jpg',
-    'img/screenshots/prisoners/3.jpg',
-    'img/screenshots/prisoners/4.jpg',
-    'img/screenshots/prisoners/5.jpg',
-    'img/screenshots/prisoners/6.jpg',
-    'img/screenshots/temple/1.png',
-    'img/screenshots/temple/2.png',
-    'img/screenshots/temple/3.png',
-    'img/screenshots/temple/4.png',
-    'img/screenshots/temple/5.png',
-    'img/screenshots/temple/6.png'
+    '/img/screenshots/bio/bio-colony-center.jpg',
+    '/img/screenshots/bio/bio-greenhouses.jpg',
+    '/img/screenshots/bio/bio-prison-cell.jpg',
+    '/img/screenshots/bio/bio-rezector.jpg',
+    '/img/screenshots/bio/bio-shooting-turret.jpg',
+    '/img/screenshots/bio/bio-strange-cave.jpg',
+    '/img/screenshots/bio/bio-tunnel-monster.jpg',
+    '/img/screenshots/fabric/1.jpg',
+    '/img/screenshots/fabric/2.jpg',
+    '/img/screenshots/fabric/3.jpg',
+    '/img/screenshots/fabric/4.jpg',
+    '/img/screenshots/fabric/5.jpg',
+    '/img/screenshots/fabric/6.jpg',
+    '/img/screenshots/hacker/1.jpg',
+    '/img/screenshots/hacker/2.png',
+    '/img/screenshots/hacker/3.png',
+    '/img/screenshots/hacker/4.png',
+    '/img/screenshots/hacker/5.png',
+    '/img/screenshots/hacker/6.jpg',
+    '/img/screenshots/miners/1.jpg',
+    '/img/screenshots/miners/2.jpg',
+    '/img/screenshots/miners/3.jpg',
+    '/img/screenshots/miners/4.jpg',
+    '/img/screenshots/miners/5.jpg',
+    '/img/screenshots/miners/6.jpg',
+    '/img/screenshots/prisoners/1.jpg',
+    '/img/screenshots/prisoners/2.jpg',
+    '/img/screenshots/prisoners/3.jpg',
+    '/img/screenshots/prisoners/4.jpg',
+    '/img/screenshots/prisoners/5.jpg',
+    '/img/screenshots/prisoners/6.jpg',
+    '/img/screenshots/temple/1.png',
+    '/img/screenshots/temple/2.png',
+    '/img/screenshots/temple/3.png',
+    '/img/screenshots/temple/4.png',
+    '/img/screenshots/temple/5.png',
+    '/img/screenshots/temple/6.png'
 
 ];
 
@@ -53,7 +53,7 @@ const sliderContainer = document.querySelector('.main__aside__slider');
 shuffledImages.forEach(imagePath => {
     const slide = document.createElement('div');
     slide.className = 'slide';
-    slide.innerHTML = `<img src="${imagePath}" alt="Random Image">`;
+    slide.innerHTML = `<img src="${imagePath}" alt="Game Screenshots">`;
     sliderContainer.appendChild(slide);
 });
 
